@@ -1,0 +1,29 @@
+{
+  "boundary_doi": "10.5281/zenodo.17352136",
+  "boundary_md5": "13b989a1f2e24a52a234b0dfc01f4beb",
+  "sentinel_collection": "sentinel-2-l2a",
+  "item_id": "S2A_MSIL2A_20240328T152651_R025_T17MRM_20240330T060154",
+  "datetime": "2024-03-28T15:26:51.024000Z",
+  "scene_cloud_percent": 11.096798,
+  "bands": [
+    "B04",
+    "B08",
+    "B11",
+    "SCL"
+  ],
+  "fields": {
+    "oat_176": 590,
+    "oat_107": 355
+  },
+  "raw_sha256": {
+    "oat_176_s2_l2a_20240328.tif": "bad7049ddd440f7c860161ea575df5ca617467491b38b400ebadb272b5fc7db8",
+    "oat_107_s2_l2a_20240328.tif": "168c035c92d6bc604ce09de1c2fd85f4373882c1f6674f3587d80d73488fd984"
+  },
+  "source_asset_hrefs": {
+    "B04": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/17/M/RM/2024/03/28/S2A_MSIL2A_20240328T152651_N0510_R025_T17MRM_20240330T060154.SAFE/GRANULE/L2A_T17MRM_A045782_20240328T153032/IMG_DATA/R10m/T17MRM_20240328T152651_B04_10m.tif",
+    "B08": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/17/M/RM/2024/03/28/S2A_MSIL2A_20240328T152651_N0510_R025_T17MRM_20240330T060154.SAFE/GRANULE/L2A_T17MRM_A045782_20240328T153032/IMG_DATA/R10m/T17MRM_20240328T152651_B08_10m.tif",
+    "B11": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/17/M/RM/2024/03/28/S2A_MSIL2A_20240328T152651_N0510_R025_T17MRM_20240330T060154.SAFE/GRANULE/L2A_T17MRM_A045782_20240328T153032/IMG_DATA/R20m/T17MRM_20240328T152651_B11_20m.tif",
+    "SCL": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/17/M/RM/2024/03/28/S2A_MSIL2A_20240328T152651_N0510_R025_T17MRM_20240330T060154.SAFE/GRANULE/L2A_T17MRM_A045782_20240328T153032/IMG_DATA/R20m/T17MRM_20240328T152651_SCL_20m.tif"
+  },
+  "notes": "B11 is bilinear-resampled from 20 m to B04's 10 m grid; SCL is nearest-resampled."
+}

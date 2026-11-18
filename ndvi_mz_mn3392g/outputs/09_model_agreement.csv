@@ -1,0 +1,11 @@
+field,comparator,ari_vs_kmeans,compared_fraction
+oat_176,fcm_baseline,0.7483745413241653,1.0
+oat_176,kmeans_baseline,0.7412776943805683,1.0
+oat_176,gmm_baseline,0.3284029352713551,1.0
+oat_176,fcm_tuned,0.8609799526997398,1.0
+oat_176,gmm_tuned,0.3476827892947695,1.0
+oat_107,fcm_baseline,0.8173918460148877,1.0
+oat_107,kmeans_baseline,0.5726620634584408,1.0
+oat_107,gmm_baseline,0.611317742836619,1.0
+oat_107,fcm_tuned,1.0,1.0
+oat_107,gmm_tuned,0.662074101657047,1.0

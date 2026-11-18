@@ -1,0 +1,110 @@
+{
+  "oat_176": {
+    "baseline_kmeans": {
+      "k": 4,
+      "init": "random",
+      "n_init": 1,
+      "max_iter": 300,
+      "random_state": 42,
+      "scaling": "none",
+      "iterations": 16
+    },
+    "tuned_kmeans": {
+      "k": 3,
+      "init": "k-means++",
+      "n_init": 30,
+      "silhouette": 0.43929038001047943,
+      "inertia": 134.8492505920804,
+      "iterations": 7,
+      "min_zone_fraction": 0.17229729729729729,
+      "feasible": true,
+      "elbow_k": 3,
+      "silhouette_best_k": 2,
+      "elbow_distance": 0.2543833643643555,
+      "max_iter": 500,
+      "random_state": 42,
+      "scaling": "fieldwise StandardScaler"
+    },
+    "baseline_fcm": {
+      "k": 4,
+      "m": 2.0,
+      "fpc": 0.6651217738432603,
+      "scaling": "none"
+    },
+    "tuned_fcm": {
+      "k": 3,
+      "m": 1.6,
+      "fpc": 0.8434206200040563,
+      "scaling": "fieldwise StandardScaler"
+    },
+    "baseline_gmm": {
+      "k": 4,
+      "covariance_type": "full",
+      "reg_covar": 1e-06,
+      "bic": -2064.4715869409165,
+      "scaling": "none"
+    },
+    "tuned_gmm": {
+      "k": 3,
+      "covariance_type": "full",
+      "reg_covar": 1e-06,
+      "bic": 1216.2326029262888,
+      "scaling": "fieldwise StandardScaler"
+    },
+    "evaluation_space": "same standardized NDVI/NDMI for all labels"
+  },
+  "oat_107": {
+    "baseline_kmeans": {
+      "k": 4,
+      "init": "random",
+      "n_init": 1,
+      "max_iter": 300,
+      "random_state": 42,
+      "scaling": "none",
+      "iterations": 15
+    },
+    "tuned_kmeans": {
+      "k": 3,
+      "init": "k-means++",
+      "n_init": 30,
+      "silhouette": 0.5682993169193409,
+      "inertia": 48.626008311726935,
+      "iterations": 7,
+      "min_zone_fraction": 0.1958041958041958,
+      "feasible": true,
+      "elbow_k": 3,
+      "silhouette_best_k": 2,
+      "elbow_distance": 0.31680364818892864,
+      "max_iter": 500,
+      "random_state": 42,
+      "scaling": "fieldwise StandardScaler"
+    },
+    "baseline_fcm": {
+      "k": 4,
+      "m": 2.0,
+      "fpc": 0.7461571573899292,
+      "scaling": "none"
+    },
+    "tuned_fcm": {
+      "k": 3,
+      "m": 1.6,
+      "fpc": 0.9001127537701088,
+      "scaling": "fieldwise StandardScaler"
+    },
+    "baseline_gmm": {
+      "k": 4,
+      "covariance_type": "full",
+      "reg_covar": 1e-06,
+      "bic": -709.0595310342782,
+      "scaling": "none"
+    },
+    "tuned_gmm": {
+      "k": 3,
+      "covariance_type": "full",
+      "reg_covar": 1e-06,
+      "bic": 516.8811923478528,
+      "scaling": "fieldwise StandardScaler"
+    },
+    "evaluation_space": "same standardized NDVI/NDMI for all labels"
+  }
+}

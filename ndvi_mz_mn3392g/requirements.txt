@@ -1,0 +1,16 @@
+numpy
+pandas
+scipy
+scikit-learn
+scikit-fuzzy
+matplotlib
+pyarrow
+rasterio
+shapely
+pyproj
+requests
+joblib
+nbformat
+nbclient
+nbconvert
+ipykernel
